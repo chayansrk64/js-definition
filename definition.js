@@ -108,6 +108,17 @@
  *    * JavaScript runs code line by line.
  *    * Must finish executing a piece of code before moving to the next.
  *  
+ * _______________________________________________________________
+ * 
+ *       ======= Synchronous and Asynchronous =========
+ * 
+ *  ## What do you mean by Synchronous?
+ *  * You'll see that until the first image is loaded completely,
+ *  * The second image doesn't start loading.
+ * 
+ *  ## What do you mean by Asynchronous?
+ *  * All the images are loading at their own pace.
+ *  * None of them is waiting for any of the others.
  * 
  * 
  * 
@@ -117,7 +128,5 @@
  * 
  * 
  * 
-
-
-
+ * 
  */
