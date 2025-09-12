@@ -1,5 +1,5 @@
 
-// asynchronous behavior
+// ============ asynchronous behavior  =============
 function getData () {
     console.log("one")
     console.log("two")
@@ -19,7 +19,7 @@ function getData () {
 
 
 
-// synchronous behavior
+// ============ synchronous behavior =============
 async function getData2 () {
     console.log('1');
     console.log('2');

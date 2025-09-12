@@ -120,6 +120,13 @@
  *  * All the images are loading at their own pace.
  *  * None of them is waiting for any of the others.
  * 
+ * _____________________________________________________
+ *      Async / Await
+ *   # "async/await" is a special syntax to work with promises in a more comfortable way
+ *   # It's surprisingly easy to understand and use.
+ *   # The await keyword can only be used inside an async function.
+ *   # The await keyword makes the function pause the execution and
+ *   # wait for a resolved promise before it continues
  * 
  * 
  * 
