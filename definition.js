@@ -128,8 +128,16 @@
  *   # The await keyword makes the function pause the execution and
  *   # wait for a resolved promise before it continues
  * 
+ *  _______________________________________________
+ *  ## Call Stack 
+ *   * Keeps track of all the operations in line to be executed.
+ *   * Whenever a function is finished, it is popped from the stack.
  * 
- * 
+ * _______________________________________________
+ *      # Event Queue
+ *  * Sends new functions to the stack for processing.
+ *  * Follows the queue data structure.
+ *  * Maintains the correct sequence in which all operations should be sent for execution.
  * 
  * 
  * 
